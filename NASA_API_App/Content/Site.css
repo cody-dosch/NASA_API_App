@@ -57,6 +57,8 @@ textarea {
 .dashboard-header {
     font-family: "Space";
     font-size: 56px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 
 .dashboard-header:hover {
