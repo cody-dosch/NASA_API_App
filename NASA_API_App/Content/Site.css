@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: black;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -21,4 +22,43 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+/* DASHBOARD PAGE */
+#Earth {
+    background-image: url("Images/Earth.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 40em;
+    width: 40em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#Mars {
+    background-image: url("Images/Mars.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 40em;
+    width: 40em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+@font-face {
+    font-family: "Space";
+    src: url("Fonts/SPACE.ttf") format("truetype");
+}
+
+.dashboard-header {
+    font-family: "Space";
+    font-size: 56px;
+}
+
+.dashboard-header:hover {
+    color: lightgray;
 }
