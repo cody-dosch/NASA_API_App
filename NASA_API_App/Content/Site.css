@@ -54,6 +54,16 @@ textarea {
     src: url("Fonts/SPACE.ttf") format("truetype");
 }
 
+a > .dashboard-header {
+    color: white;
+    text-decoration: none!important;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
 .dashboard-header {
     font-family: "Space";
     font-size: 56px;
@@ -63,4 +73,5 @@ textarea {
 
 .dashboard-header:hover {
     color: lightgray;
+    text-decoration: none;
 }
