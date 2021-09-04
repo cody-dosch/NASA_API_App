@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Models.View_Models
 {
-    class Earth
+    public class Earth
     {
         public NASA_NEO_Object NEO { get; set; }
     }
