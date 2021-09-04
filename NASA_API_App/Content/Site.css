@@ -75,3 +75,12 @@ a:active { text-decoration: none; }
     color: lightgray;
     text-decoration: none;
 }
+
+/* APOD PAGE */
+#apod-text {
+    color: white;
+}
+
+#apod-image > img {
+    
+}

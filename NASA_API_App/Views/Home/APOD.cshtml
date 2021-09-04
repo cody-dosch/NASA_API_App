@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    @model Models.View_Models.APODView
+}
+<div class="container">
+    <div id="apod-image" class="row text-center">
+        <img src="@Model.APOD.url" />
+    </div>
+    <div id="apod-text" class="row text-center">
+        <p>@Model.APOD.title</p>
+        <p>@Model.APOD.explanation</p>
+        <p>@Model.APOD.date</p>
+        <p>@Model.APOD.copyright</p>
+    </div>
+</div>
+

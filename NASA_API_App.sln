@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NASA_API_App", "NASA_API_App\NASA_API_App.csproj", "{64E39FF4-7CAE-451C-BDD9-BE284585282D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models2\Models.csproj", "{91CC1DCF-240F-456A-93A6-6BBE06DBBAB8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{91CC1DCF-240F-456A-93A6-6BBE06DBBAB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

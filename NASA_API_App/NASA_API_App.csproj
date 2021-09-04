@@ -168,6 +168,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Dashboard.cshtml" />
     <Content Include="Views\Earth\Earth.cshtml" />
+    <Content Include="Views\Home\APOD.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -187,7 +188,7 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Models2\Models.csproj">
+    <ProjectReference Include="..\Models\Models.csproj">
       <Project>{91cc1dcf-240f-456a-93a6-6bbe06dbbab8}</Project>
       <Name>Models</Name>
     </ProjectReference>

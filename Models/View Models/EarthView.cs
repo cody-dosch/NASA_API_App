@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Models.View_Models
 {
-    public class Earth
+    public class EarthView
     {
-        public NASA_NEO_Object NEO { get; set; }
+        public API_Objects.NEORootobject NEO { get; set; }
     }
 }
