@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Mars";
+    @model Models.View_Models.MarsView
+}
+
+<div class="container">
+    <div class="row text-center text-white">
+        <h1>Photos from @Model.Photos.photos[0].earth_date</h1>
+        <div id="mars-images" class="col-xs-12">
+            @foreach (var image in Model.Photos.photos)
+            {
+                <img src="@image.img_src" />
+            }
+        </div>
+    </div>
+</div>
+

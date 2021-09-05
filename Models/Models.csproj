@@ -41,10 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API Objects\NASA_Mars_Photos_Object.cs" />
     <Compile Include="API Objects\NASA_APOD_Object.cs" />
     <Compile Include="API Objects\NASA_NEO_Object.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View Models\APODView.cs" />
+    <Compile Include="View Models\MarsView.cs" />
     <Compile Include="View Models\EarthView.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -49,6 +49,18 @@ textarea {
     color: white;
 }
 
+#APOD {
+    background-image: url("Images/Hubble.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 25%;
+    height: 20em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @font-face {
     font-family: "Space";
     src: url("Fonts/SPACE.ttf") format("truetype");
@@ -77,10 +89,17 @@ a:active { text-decoration: none; }
 }
 
 /* APOD PAGE */
-#apod-text {
+.text-white {
     color: white;
 }
 
 #apod-image > img {
     
+}
+
+#apod-video > iframe {
+    height: 30em;
+    width: 50em;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }

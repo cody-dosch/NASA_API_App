@@ -2,15 +2,28 @@
     ViewBag.Title = "Home Page";
     @model Models.View_Models.APODView
 }
-<div class="container">
-    <div id="apod-image" class="row text-center">
-        <img src="@Model.APOD.url" />
+<div class="container text-center">
+    <div class="col-xs-12">
+        <h1 class="text-white">@Model.APOD.title</h1>
+        @if (Model.APOD.media_type == "image")
+        {
+            <div id="apod-image" class="row text-center">
+                <img src="@Model.APOD.url" />
+            </div>
+        }
+        else if (Model.APOD.media_type == "video")
+        {
+            <div id="apod-video" class="row text-center">
+                <iframe src="@Model.APOD.url"></iframe>
+            </div>
+        }
     </div>
-    <div id="apod-text" class="row text-center">
-        <p>@Model.APOD.title</p>
-        <p>@Model.APOD.explanation</p>
-        <p>@Model.APOD.date</p>
-        <p>@Model.APOD.copyright</p>
+    <div class="row text-center text-white">
+        <div class="col-xs-12">
+            <p>@Model.APOD.explanation</p>
+            <p>@Model.APOD.date</p>
+            <p>@Model.APOD.copyright</p>
+        </div>
     </div>
 </div>
 
